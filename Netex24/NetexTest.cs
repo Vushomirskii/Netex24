@@ -145,7 +145,7 @@ namespace Netex24
             [TearDown]
             public void TearDown()
             {
-               // driver.Quit();
+                driver.Quit();
             }
         }
     }
